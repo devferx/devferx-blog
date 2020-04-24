@@ -8,11 +8,11 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Devferx`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Un blog donde  puedes aprender programación a través de posts, charlas y diversión`,
     siteUrl: `http://www.devferx.codes/`,
     home: {
-      title: `Hi! I'm Delog`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
+      title: `Hola soy Fer`,
+      description: `Bienvenid@ a mi Blog. En este blog podrás aprender temas de programación como web y mobile. Además de posts podrás encontrar charlas en las cuales participe. Espero que puedas aprender un montón!!!`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5ea2515bd426dCF_Domain_verify` 
