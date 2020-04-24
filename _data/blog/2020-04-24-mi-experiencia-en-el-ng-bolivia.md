@@ -6,3 +6,5 @@ title: 'Mi experiencia en el Ng Bolivia '
 thumbnail: /assets/Frame 1.jpg
 ---
 esta es otra prueba
+
+donde debo escribir mas cosas :v
