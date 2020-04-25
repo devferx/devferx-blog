@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /remark-kitchen-sink
+path: /full-stack-2020
 date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
+title: Prepárate tu siguiente paso Full-Stack en 2020
 thumbnail: /assets/1_4H1iK8Ryof2QYA2vzPW23g.png
 ---
 hace dos años comencé con el área de la programación web, empezando con HTML 5 y CSS3, pero sentía que le faltaba algo de interacción y le meti JavaScript, esta vez sin darme cuenta había comenzado con algo que me había apasionado, el desarrollo web después de ese par de años, aprendí cosas relacionadas como ser: Angular, React, Node, Express y MongoDB.El dia de hoy vengo a compartir un poco de mi experiencia con algunas recomendaciones espero que les guste.
