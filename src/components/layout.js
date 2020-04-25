@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; 2020 Devferx &bull; Crafted with <span role="img" aria-label="love">❤️</p>
+        <p>&copy; 2020 Devferx &bull; Crafted with <span role="img" aria-label="love">❤️</span></p>
       </footer>
     </div>
   )
