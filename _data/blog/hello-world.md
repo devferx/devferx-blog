@@ -3,7 +3,7 @@ template: BlogPost
 path: /css+react-styled-components
 date: 2020-05-09T00:30:00.000Z
 title: CSS + React = Styled Components
-thumbnail: /assets/styled-components-react-1272x590.png
+thumbnail: /assets/StyledComponentsInReactApplications.jpg
 metaDescription: ''
 ---
 
