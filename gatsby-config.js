@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: `Devferx`,
-    description: `Un blog donde  puedes aprender programación a través de posts, charlas y diversión`,
+    description: `Blog de Fernando Quinteros Gutierrez. Un blog donde puedes aprender programación a través de posts, charlas y diversión!`,
     siteUrl: `http://www.devferx.codes/`,
     home: {
       title: `Hola soy Fer`,
