@@ -25,11 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-<<<<<<< HEAD
         <p>&copy; 2020 Devferx &bull; Crafted with <span role="img" aria-label="love">❤️</span></p>
-=======
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
->>>>>>> f82baebf15d92c126c9171bd6e6cd52e2505d2fb
       </footer>
     </div>
   )
