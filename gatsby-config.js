@@ -6,17 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  siteMetadata: {
-    title: `Devferx`,
-    description: `Blog de Fernando Quinteros Gutierrez. Un blog donde puedes aprender programación a través de posts, charlas y diversión!`,
-    siteUrl: `http://www.devferx.codes/`,
-    home: {
-      title: `Hola soy Fer`,
-      description: `Bienvenid@ a mi Blog. En este blog podrás aprender temas de programación como web y mobile. Además de posts podrás encontrar charlas en las cuales participe. Espero que puedas aprender un montón!!!`,
-    },
-    /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
-    w3l_dom_key: `5ea2515bd426dCF_Domain_verify` 
-  },
+  siteMetadata: require("./site-meta-data.json"),
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -51,9 +41,24 @@ module.exports = {
         head: true,
       }
     },
-    `gatsby-plugin-sass`, 
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Devferx Blog`,
+        short_name: `Devferx`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#381696`,
+        display: `standalone`,
+        icon: "src/images/icon.png",
+      },
+    },
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
-    'gatsby-plugin-dark-mode'
+    'gatsby-plugin-dark-mode',
+    // siteURL is a must for sitemap generation
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`,
   ],
 }
