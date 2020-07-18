@@ -4,7 +4,7 @@ path: /flutter-para-JavaScript-Devs
 date: 2020-02-20T14:59:36.571Z
 title: Flutter para JavaScript Devs
 metaDescription: 'Aprende Flutter teniendo bases como desarrollador web '
-thumbnail: '/assets/Flutter meetup #1.png'
+thumbnail: /assets/flutter_meetup_1.png
 ---
 # Introducción
 
